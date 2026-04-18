@@ -50,7 +50,7 @@ and offer the best experience on larger screens and with keyboard/mouse controls
 
 **SplashChess**  
 *A game combining chess and splatoon.*  
-| [docs](https://paolomalgarin.github.io/GamingHub) | [play](https://paolomalgarin.github.io/GamingLab/games/SplashChess) |
+| [docs](public\game_docs\splashchess\docs.pdf) | [play](https://paolomalgarin.github.io/GamingLab/games/SplashChess) |
 |:--:|--|
 
 
@@ -59,7 +59,7 @@ and offer the best experience on larger screens and with keyboard/mouse controls
 
 **Smash**  
 *A game inspired by super smash (cause I wanted to recreate it).*  
-| [docs](https://paolomalgarin.github.io/GamingHub) | [play](https://paolomalgarin.github.io/GamingLab/games/Smash) |
+| [docs](public\game_docs\smash\docs.pdf) | [play](https://paolomalgarin.github.io/GamingLab/games/Smash) |
 |:--:|--|
 
 
@@ -72,13 +72,3 @@ and offer the best experience on larger screens and with keyboard/mouse controls
 
 # 📄 License
 This project is released under [MIT License](https://github.com/paolomalgarin/GamingLab/blob/main/LICENSE).
-
-
-
-
-  
-
-<br><br><br><br><br>
-
-> [!IMPORTANT]  
-> TODO: aggiungere i readme dei giochi con regole e comandi  

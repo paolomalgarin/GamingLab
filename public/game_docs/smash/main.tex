@@ -1,0 +1,53 @@
+\documentclass[11pt, a4paper]{article}
+
+% Impostiamo margini del foglio molto stretti, 
+% tanto la cornice e il padding interno li gestiamo in stile.sty
+\usepackage[
+    top=1.5cm, 
+    bottom=2cm, 
+    left=1.5cm, 
+    right=1.5cm, 
+    footskip=1cm
+]{geometry} 
+
+\usepackage{../style}
+
+\begin{document}
+
+\begin{ManualDocument}{SMASH}{img/icon.png}
+
+    \section*{\textcolor{gameOrange}{In a nutshell}}
+    \noindent This is a game heavily inspired from super smash bros brawl and brawlhalla. It's a 2 player game to play on the same computer, where the goal is to attack the enemy player until it falls off the map. Every hit increases the players damage percentage which determines the knockback that the player will recive after every hit.
+
+    
+    \section*{\textcolor{gameOrange}{Keybindings}}
+    
+    \subsection*{PLAYER 1}
+    \addKeybindings{A, D}{Movement}
+    \addKeybindings{W}{Jump}
+    \addKeybindings{W (On Air)}{Double Jump}
+    \addKeybindings{Q}{Shield}
+    \addKeybindings{E}{Dodge}
+    \addKeybindings{F}{Attack}
+    \addKeybindings{F + S}{Low Attack}
+    \addKeybindings{F + W}{High Attack}
+    
+    \subsection*{PLAYER 2}
+    \addKeybindings{←, →}{Movement}
+    \addKeybindings{↑}{Jump}
+    \addKeybindings{↑ (On Air)}{Double Jump}
+    \addKeybindings{{,}}{Shield}
+    \addKeybindings{.}{Dodge}
+    \addKeybindings{SHIFT}{Attack}
+    \addKeybindings{SHIFT + ↓}{Low Attack}
+    \addKeybindings{SHIFT + ↑}{High Attack}
+
+
+    \section*{\textcolor{gameOrange}{Screenshots}}
+    
+    \addGameImage{img/screen_1.png}{Small map game}
+    \addGameImage{img/screen_2.png}{Big map game}
+    
+\end{ManualDocument}
+
+\end{document}
